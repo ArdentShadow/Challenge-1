@@ -8,8 +8,6 @@ body {
     background-color: #d9dcd6;
 }
 
-
-/*START of the Header portion*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -42,9 +40,7 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-/*END of the Header portion*/
 
-/*START of basic text style*/
 a {
     color: #ffffff;
     text-decoration: none;
@@ -53,22 +49,16 @@ a {
 p {
     font-size: 16px;
 }
-/*END of basic text style*/
 
-
-/* START of the background image */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("./images/digital-marketing-meeting.jpg");
+    background-image: url("./images/digital-marketing-meeting.jpg");   /* THIS IS THE BACKGROUND IMAGE */
     background-size: cover;
     background-position: center;
 }
-/* END of the background image */
 
-
-/* START of the float section for the images within the content section of the HTML */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -78,16 +68,13 @@ p {
     float: right;
     margin-left: 25px;
 }
-/* END of the float section for the images within the content section of the HTML */
+
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-
-/*START of the Benefits portion*/
 
 .benefits {
     margin-right: 20px;
@@ -132,7 +119,6 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-/*END of the Benefits portion*/
 
 .search-engine-optimization,
 .online-reputation-management,
